@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0px 30px;
+  margin: 100px auto;
+  background-color: #02028d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner {
+  background-color: #02028d;
+  margin: 50px 0px;
+  width: 1000px;
+  display: grid;
+  /* max-width: 1200px;
+  width: 100%; */
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(80px, auto);
+
+  grid-template-areas:
+    "lorem culpa officia officia"
+    "lorem mollit mollit fugiat"
+    "exercition magna laboris fugiat"
+    "ullamco ullamco laboris cosectetur"
+    "pariatur dolore dolore excepteur";
+}
+.box-1 {
+  grid-area: lorem;
+}
+.box-2 {
+  grid-area: culpa;
+}
+.box-3 {
+  grid-area: officia;
+}
+.box-4 {
+  grid-area: mollit;
+}
+.box-5 {
+  grid-area: fugiat;
+}
+.box-6 {
+  grid-area: exercition;
+}
+.box-7 {
+  grid-area: magna;
+}
+.box-8 {
+  grid-area: ullamco;
+}
+.box-9 {
+  grid-area: laboris;
+}
+/* .box-10 {
+  grid-area: consectetur;
+} */
+.box-11 {
+  grid-area: pariatur;
+}
+.box-12 {
+  grid-area: dolore;
+}
+.box-13 {
+  grid-area: excepteur;
+}
+.box {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #02028d;
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  /* font-family: sans-serif; */
+}
